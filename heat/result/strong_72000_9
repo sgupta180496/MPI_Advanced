@@ -1,0 +1,16 @@
+33.1184
+[mba-c5:62607] *** Process received signal ***
+[mba-c5:62607] Signal: Segmentation fault (11)
+[mba-c5:62607] Signal code: Address not mapped (1)
+[mba-c5:62607] Failing at address: 0x30
+[mba-c5:62607] [ 0] /lib64/libpthread.so.0(+0xf5d0)[0x2acf606ad5d0]
+[mba-c5:62607] [ 1] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/openmpi/mca_btl_openib.so(+0x23afc)[0x2acf658bfafc]
+[mba-c5:62607] [ 2] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/openmpi/mca_btl_openib.so(mca_btl_openib_finalize+0x44c)[0x2acf658a5a7c]
+[mba-c5:62607] [ 3] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/libmpi.so.12(+0x7fcc0)[0x2acf5fc25cc0]
+[mba-c5:62607] [ 4] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/libopen-pal.so.13(mca_base_framework_close+0x75)[0x2acf60f48b45]
+[mba-c5:62607] [ 5] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/libopen-pal.so.13(mca_base_framework_close+0x75)[0x2acf60f48b45]
+[mba-c5:62607] [ 6] /apps/pkg/openmpi/1.10.0/rhel7_u5/gnu/lib/libmpi.so.12(ompi_mpi_finalize+0x51e)[0x2acf5fbebe9e]
+[mba-c5:62607] [ 7] ./mpi_heat[0x40926d]
+[mba-c5:62607] [ 8] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2acf608dc3d5]
+[mba-c5:62607] [ 9] ./mpi_heat[0x4093d7]
+[mba-c5:62607] *** End of error message ***
